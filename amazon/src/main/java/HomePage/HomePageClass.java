@@ -72,7 +72,7 @@ public class HomePageClass extends CommonAPI {
     public void setSubmit(){
         submit.click();
     }
-}
+
 
 
     public void setSearchBar() {

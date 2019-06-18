@@ -53,13 +53,13 @@ public void SearchBarTest(){
 
     }
 
-    @Test
+   /* @Test
     public void setDealsTest(){
         homepage.setDeals();
         homepage.setDetails();
         homepage.setVerify();
 
-    }
+    }*/
 }
 
 
