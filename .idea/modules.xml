@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Bootcamp.iml" filepath="$PROJECT_DIR$/Bootcamp.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
       <module fileurl="file://$PROJECT_DIR$/amazon/amazon.iml" filepath="$PROJECT_DIR$/amazon/amazon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facebook/facebook.iml" filepath="$PROJECT_DIR$/facebook/facebook.iml" />
     </modules>
   </component>
 </project>

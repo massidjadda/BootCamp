@@ -1,14 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Android test suite for TD Bank">
 
-    <parameter name="OS" value="Android"/>
-    <parameter name="deviceName" value="emulator-5554"/>
-    <parameter name="version" value="9"/>
+<suite name="HBPhotoVideo Automation Script " parallel="methods" thread-count="4">
 
-    <test name="Home page" preserve-order="true">
+    <parameter name="platform" value="windows"/>
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="OS X"/>
+    <parameter name="os_version" value="Sierra"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="53.0"/>
+    <parameter name="url" value="https://www.amazon.com/"/>
+
+    <test name="HB home">
         <classes>
-            <class name="homepageTest."/>
+
+            <class name="homepageTest.HomePageTestClass"/>
+
         </classes>
     </test>
 </suite>
