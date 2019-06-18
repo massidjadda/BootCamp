@@ -6,13 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="facebook" />
+        <module name="CitiBank" />
         <module name="amazon" />
+        <module name="Cigna" />
+      </profile>
+      <profile name="Annotation profile for Generic" enabled="true">
+        <sourceOutputDir name="../facebook/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../facebook/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="Generic" />
+      </profile>
+      <profile name="Annotation profile for mobileAutomation" enabled="true">
+        <sourceOutputDir name="../CitiBank/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../CitiBank/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CNN" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="amazon" target="1.5" />
       <module name="Bootcamp" target="1.5" />
+      <module name="Cigna" target="1.5" />
+      <module name="CitiBank" target="1.5" />
+      <module name="CNN" target="1.5" />
+      <module name="facebook" target="1.5" />
       <module name="Generic" target="1.5" />
     </bytecodeTargetLevel>
   </component>

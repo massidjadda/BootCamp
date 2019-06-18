@@ -15,7 +15,7 @@
     <test name="HB home">
         <classes>
 
-            <class name="homepageTest.HomePageTestClass"/>
+            <class name="homepage.HomePageTestClass"/>
 
         </classes>
     </test>
