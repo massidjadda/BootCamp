@@ -26,13 +26,12 @@ public class HomePageCNN extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"nav\"]/div[2]/div[2]/a[5]")
     WebElement opinion;
 
-    @FindBy (id="search-button")
+    @FindBy(id = "search-button")
     WebElement searchbutton;
-    @FindBy(id="search-input-field")
+    @FindBy(id = "search-input-field")
     WebElement searchfield;
-    @FindBy(id="submit-button")
+    @FindBy(id = "submit-button")
     WebElement submitbutton;
-
 
 
     public void setUs() {
@@ -41,11 +40,13 @@ public class HomePageCNN extends CommonAPI {
         driver.navigate().back();
         energy.click();
     }
+
     public void setWorld() {
         world.click();
         africa.click();
 
     }
+
     public void setPolitics() {
         politics.click();
         congress.click();
@@ -54,14 +55,17 @@ public class HomePageCNN extends CommonAPI {
 
 
     }
+
     public void setBusiness() {
         business.click();
 
     }
-    public void setOpinion(){
+
+    public void setOpinion() {
         opinion.click();
     }
-    public void setSearchnews(){
+
+    public void setSearchnews() {
         searchbutton.click();
         searchfield.sendKeys("Algeria news");
         sleepFor(2);
@@ -70,7 +74,6 @@ public class HomePageCNN extends CommonAPI {
 
 
     }
-
 
 
 }

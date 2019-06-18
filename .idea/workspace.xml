@@ -5,40 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d47e408-6852-44cc-bf47-c87051092926" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/Generic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/Generic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/MobileAPI2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/MobileApplicationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToMongoDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/drivers/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/drivers/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/drivers/chromedriver2.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/googlesheets/GoogleSheet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ApplicationLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentTestManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/TestLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/sql-driver/mysql-connector-java-6.0.6-bin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon/amazon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/amazon/amazon.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/amazon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon/src/test/java/homepageTest/HomePageTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/amazon/src/test/java/homepage/HomePageTestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon/src/test/resources/amazonRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/amazon/src/test/resources/amazonRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon/target/classes/HomePage/HomePageClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon/target/test-classes/amazonRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/amazon/target/test-classes/amazonRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon/target/test-classes/homepageTest/HomePageTestClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/facebook/facebook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/facebook/facebook.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facebook/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facebook/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facebook/src/test/java/FacebookTest/FacebookTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/facebook/src/test/java/FacebookTest/FacebookTestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cigna/src/main/java/homepage/HomePageCigna.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/src/main/java/homepage/HomePageCigna.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cigna/src/test/java/homepage/HomePageCignaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/src/test/java/homepage/HomePageCignaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon/target/classes/Extent-Report/report-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/amazon/target/classes/Extent-Report/report-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon/target/classes/homepage/HomePageCigna.class" beforeDir="false" afterPath="$PROJECT_DIR$/amazon/target/classes/homepage/HomePageCigna.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon/target/test-classes/homepage/HomePageCignaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/amazon/target/test-classes/homepage/HomePageCignaTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/amazon/target/" />
@@ -63,15 +35,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/amazon/src/test/resources/amazonRunner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CNN/src/main/java/homepage/HomePageCNN.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -116,11 +79,23 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CNN/src/test/resources/CNNRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cigna/src/main/java/homepage/HomePageCigna.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -188,14 +163,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cigna/src/test/java/homepage/HomePageCignaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="338">
+              <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -251,6 +226,8 @@
         <option value="$PROJECT_DIR$/CNN/src/test/java/homepage/HomePageCNNTest.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/CNN/src/main/java/Extent-Report/report-config.xml" />
+        <option value="$PROJECT_DIR$/Cigna/src/main/java/homepage/HomePageCigna.java" />
+        <option value="$PROJECT_DIR$/Cigna/src/test/java/homepage/HomePageCignaTest.java" />
       </list>
     </option>
   </component>
@@ -344,10 +321,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/java/Bootcamp/CNN/src/test/resources/CNNRunner.xml">
+  <component name="RunManager" selected="TestNG.D:/java/Bootcamp/Cigna/src/test/resources/CignaRunner.xml">
     <configuration name="D:/java/Bootcamp/CNN/src/test/resources/CNNRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="amazon" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/CNN/src/test/resources/CNNRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/java/Bootcamp/Cigna/src/test/resources/CignaRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="amazon" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Cigna/src/test/resources/CignaRunner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -394,6 +381,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/java/Bootcamp/Cigna/src/test/resources/CignaRunner.xml" />
         <item itemvalue="TestNG.D:/java/Bootcamp/CNN/src/test/resources/CNNRunner.xml" />
         <item itemvalue="TestNG.D:/java/Bootcamp/facebook/src/test/resources/FacebookRunner.xml" />
         <item itemvalue="TestNG.D:/java/Bootcamp/amazon/src/test/resources/amazonRunner.xml" />
@@ -415,9 +403,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D__java_Bootcamp_amazon_src_test_resources_amazonRunner_xml - 2019.06.17 at 22h 14m 59s.xml">
-      <configuration name="D:/java/Bootcamp/amazon/src/test/resources/amazonRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="D__java_Bootcamp_facebook_src_test_resources_FacebookRunner_xml - 2019.06.18 at 15h 33m 29s.xml">
       <configuration name="D:/java/Bootcamp/facebook/src/test/resources/FacebookRunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -445,16 +430,20 @@
     <history-entry file="D__java_Bootcamp_CNN_src_test_resources_CNNRunner_xml - 2019.06.18 at 16h 12m 23s.xml">
       <configuration name="D:/java/Bootcamp/CNN/src/test/resources/CNNRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="D__java_Bootcamp_Cigna_src_test_resources_CignaRunner_xml - 2019.06.18 at 16h 39m 38s.xml">
+      <configuration name="D:/java/Bootcamp/Cigna/src/test/resources/CignaRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17785235" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17785235" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.3286119" />
@@ -462,7 +451,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -611,13 +600,6 @@
     <entry file="file://$PROJECT_DIR$/Cigna/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cigna/src/main/java/homepage/HomePageCigna.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CitiBank/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -651,17 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cigna/src/test/java/homepage/HomePageCignaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -771,6 +742,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cigna/src/main/java/homepage/HomePageCigna.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cigna/src/test/java/homepage/HomePageCignaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

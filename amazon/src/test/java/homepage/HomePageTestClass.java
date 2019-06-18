@@ -10,9 +10,10 @@ import org.testng.annotations.Test;
 
 public class HomePageTestClass extends CommonAPI {
     HomePageClass homepage;
+
     @BeforeMethod
-    public void init (){
-        homepage= PageFactory.initElements(driver,HomePageClass.class);
+    public void init() {
+        homepage = PageFactory.initElements(driver, HomePageClass.class);
     }
 
   /* @Test(priority = 1)
@@ -34,7 +35,7 @@ public void SearchBarTest(){
     }*/
 
     @Test(priority = 1)
-    public void selectproductTest(){
+    public void selectproductTest() {
         Select select = new Select(driver.findElement(By.xpath("//*[@id=\"searchDropdownBox\"]")));
         select.selectByIndex(13);
         homepage.setSearchBar();
@@ -48,7 +49,6 @@ public void SearchBarTest(){
         driver.findElement(By.xpath("//*[@id=\"ap_email\"]")).sendKeys("massidjadda@gmail.com");
         driver.findElement(By.xpath("//*[@id=\"ap_password\"]")).sendKeys("snannak1");
         driver.findElement(By.xpath("//*[@id=\"a-autoid-0\"]")).click();
-
 
 
     }

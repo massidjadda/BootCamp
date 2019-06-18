@@ -9,9 +9,10 @@ public class HomePageCNNTest extends CommonAPI {
     HomePageCNN homePageCNN;
 
     @BeforeMethod
-    public void init (){
+    public void init() {
         homePageCNN = PageFactory.initElements(driver, HomePageCNN.class);
     }
+
     /*@Test
     public void setUsTest(){
         homePageCNN.setUs();
@@ -26,7 +27,7 @@ public class HomePageCNNTest extends CommonAPI {
         homePageCNN.setPolitics();
     }*/
     @Test
-    public void setsearchNewsTest(){
+    public void setsearchNewsTest() {
         homePageCNN.setSearchnews();
     }
 

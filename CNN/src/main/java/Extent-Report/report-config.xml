@@ -43,7 +43,8 @@
             </div>
             <ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
                 <li class='analysis waves-effect active'>
-                    <a href='#!' class='test-view' onclick="_updateCurrentStage(0)"><i class='mdi-action-dashboard'></i>
+                    <a href='#!' class='test-view' onclick="_updateCurrentStage(0)">
+                        <i class='mdi-action-dashboard'></i>
                         Test Details
                     </a>
                 </li>

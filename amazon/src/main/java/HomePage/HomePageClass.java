@@ -1,7 +1,6 @@
 package HomePage;
 
 import base.CommonAPI;
-import org.apache.xpath.operations.String;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -19,7 +18,7 @@ public class HomePageClass extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"ap_email\"]")
     WebElement enterEmail;
 
-    @FindBy (xpath = "//*[@id=\"ap_password\"]")
+    @FindBy(xpath = "//*[@id=\"ap_password\"]")
     WebElement enterPassword;
 
     @FindBy(xpath = "//*[@id=\"signInSubmit\"]")
@@ -38,16 +37,15 @@ public class HomePageClass extends CommonAPI {
     WebElement returntocart;
 
 
-
-    public void setSearchBar(){
-        searchBar.sendKeys( "pearl jam");
+    public void setSearchBar() {
+        searchBar.sendKeys("pearl jam");
         sleepFor(3);
         clicksearch.click();
         sleepFor(3);
 
     }
 
-    public void LogIn(String email, String pass){
+    public void LogIn(String email, String pass) {
         loginClick.click();
         sleepFor(5);
         enterEmail.sendKeys("email");
@@ -56,17 +54,20 @@ public class HomePageClass extends CommonAPI {
         sleepFor(3);
     }
 
-    public void selectProduct(){
+    public void selectProduct() {
         product.click();
 
     }
-    public void AddToCart(){
+
+    public void AddToCart() {
         addtocart.click();
     }
-    public void Checkout(){
+
+    public void Checkout() {
         proceed.click();
     }
-    public void returntocart(){
+
+    public void returntocart() {
         returntocart.click();
 
     }

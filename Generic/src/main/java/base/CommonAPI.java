@@ -96,8 +96,8 @@ public class CommonAPI {
     /**
      * This method create driver instance for the local execution
      *
-     * @param browserName  name of the browser
-     * @param platform platform name
+     * @param browserName name of the browser
+     * @param platform    platform name
      * @return WebDriver webdriver instance for the driver
      * @Author - peoplenTech
      */

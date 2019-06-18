@@ -9,7 +9,7 @@ public class HomePageTest extends CommonAPI {
     HomePage cigna;
 
     @BeforeMethod
-    public void init (){
-        cigna= PageFactory.initElements(driver,HomePage.class);
+    public void init() {
+        cigna = PageFactory.initElements(driver, HomePage.class);
     }
 }
