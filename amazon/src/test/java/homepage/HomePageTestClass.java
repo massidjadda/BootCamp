@@ -52,4 +52,14 @@ public void SearchBarTest(){
 
 
     }
+
+    @Test
+    public void setDealsTest(){
+        homepage.setDeals();
+        homepage.setDetails();
+        homepage.setVerify();
+
+    }
 }
+
+
