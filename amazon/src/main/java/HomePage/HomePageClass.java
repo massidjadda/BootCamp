@@ -24,7 +24,7 @@ public class HomePageClass extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"signInSubmit\"]")
     WebElement login;
 
-    @FindBy(xpath = "//*[@id=\"search\"]/div[1]/div[2]/div/span[3]/div[1]/div[1]/div/div/div/div/div/div[2]/div[2]/div/div[1]/div/div/div[1]/h2/a/span")
+    @FindBy(xpath = "//*[@id=\"search\"]/div[1]/div[2]/div/span[3]/div[1]/div[1]/div/div/div/div[2]/div[2]/div/div[1]/div/div/div[1]/h2/a/span")
     WebElement product;
 
     @FindBy(xpath = "//*[@id=\"add-to-cart-button\"]")
@@ -42,14 +42,7 @@ public class HomePageClass extends CommonAPI {
     @FindBy(xpath = "//a[contains(text(),'daily deals email')]")
     WebElement details;
 
-    @FindBy(xpath = "//input[@name='verify']")
-    WebElement verify;
 
-    @FindBy(id = "ap_email")
-    WebElement email;
-
-    @FindBy(id = "ap_password")
-    WebElement pass;
 
     @FindBy(id = "signInSubmit")
     WebElement submit;
@@ -60,23 +53,15 @@ public class HomePageClass extends CommonAPI {
     public void setDetails(){
         details.click();
     }
-    public void setVerify(){
-        verify.click();
-    }
-    public void setEmail(String name){
-        email.sendKeys(name);
-    }
-    public void setPass(String password){
-        pass.sendKeys(password);
-    }
+
     public void setSubmit(){
         submit.click();
     }
 
 
 
-    public void setSearchBar() {
-        searchBar.sendKeys("pearl jam");
+    public void setSearchBar(String item) {
+        searchBar.sendKeys(item);
         sleepFor(3);
         clicksearch.click();
         sleepFor(3);

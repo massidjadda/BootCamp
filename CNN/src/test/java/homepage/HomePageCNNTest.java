@@ -13,23 +13,25 @@ public class HomePageCNNTest extends CommonAPI {
         homePageCNN = PageFactory.initElements(driver, HomePageCNN.class);
     }
 
-    /*@Test
-    public void setUsTest(){
-        homePageCNN.setUs();
+   @Test(priority = 1)
+    public void USpanelTest(){
+        homePageCNN.USpanel();
+        sleepFor(3);
+        navigateBack();
+        driver.getTitle();
 
-    }
-    //@Test
-    public void setWorldTest(){
-        homePageCNN.setWorld();
-    }
-    // @Test
-    public  void setPoliticsTest(){
-        homePageCNN.setPolitics();
-    }*/
-    @Test
-    public void setsearchNewsTest() {
-        homePageCNN.setSearchnews();
-    }
+   }
+
+   @Test(priority = 2)
+    public void searchTest(){
+        homePageCNN.setSearchbar("algerian news");
+        sleepFor(4);
+   }
+
+   @Test(priority = 3)
+    public void selectMenu(){
+        homePageCNN.setMenu();
+   }
 
 
 }

@@ -38,7 +38,7 @@ public void SearchBarTest(){
     public void selectproductTest() {
         Select select = new Select(driver.findElement(By.xpath("//*[@id=\"searchDropdownBox\"]")));
         select.selectByIndex(13);
-        homepage.setSearchBar();
+        homepage.setSearchBar("the beatles");
         sleepFor(4);
         homepage.selectProduct();
         sleepFor(2);
@@ -53,13 +53,7 @@ public void SearchBarTest(){
 
     }
 
-   /* @Test
-    public void setDealsTest(){
-        homepage.setDeals();
-        homepage.setDetails();
-        homepage.setVerify();
 
-    }*/
 }
 
 
